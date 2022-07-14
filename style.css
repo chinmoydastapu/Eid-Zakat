@@ -54,7 +54,8 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Main section  */
+/* Main section starts */
+
 /* First and second blog  */
 .article-container {
     margin: 5% 0;
@@ -77,7 +78,6 @@ header {
 
 /* Direct help cards */
 .card-container {
-    border: 1px solid red;
     display: flex;
     margin: 20px 0;
     justify-content: center;
@@ -85,7 +85,6 @@ header {
 }
 
 .card {
-    border: 1px solid green;
     border-radius: 5px;
     background-color: rgba(248, 191, 181, 0.369);
     width: 30%;
@@ -101,4 +100,23 @@ header {
 .card h3 {
     font-size: 24px;
     font-weight: bolder;
+}
+
+/* Hand of charity image gallery */
+.charity-hand-section {
+    margin: 10% 0;
+    text-align: center;
+}
+
+.charity-hand-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.charity-hand-gallery img {
+    display: block;
+    border-radius: 10px;
+    margin: 1%;
+    padding: 1%;
+    background: linear-gradient(to right top, rgba(0, 128, 0, 0.32), rgba(255, 0, 0, 0.541), rgba(0, 0, 255, 0.297), rgba(255, 255, 0, 0.313));
 }
