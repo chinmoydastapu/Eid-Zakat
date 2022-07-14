@@ -67,3 +67,38 @@ header {
 .blog {
     width: 35%;
 }
+
+/* Direct help title  */
+.direct-help-title {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Direct help cards */
+.card-container {
+    border: 1px solid red;
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: rgba(248, 191, 181, 0.369);
+    width: 30%;
+    padding: 1%;
+    display: flex;
+}
+
+.card img {
+    display: block;
+    padding: 4% 4%;
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: bolder;
+}
